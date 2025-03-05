@@ -25,6 +25,7 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    namespace "pt.tribeiro.flutter_plugin_pdf_viewer_example"
     compileSdkVersion 30
 
     lintOptions {
